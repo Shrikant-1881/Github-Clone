@@ -15,8 +15,8 @@ const Dashboard = () => {
     const fetchRepositories = async () => {
       try {
         const response = await fetch(
-          `http://localhost:3002/repo/${userId}` //`http://16.170.241.205:3002/repo/user/${userId}`   //  ${server}
-        ); //https://apna-github-backend.onrender.com
+          `https://github-clone-0bc8.onrender.com/repo/${userId}` //`http://16.170.241.205:3002/repo/user/${userId}`   //  ${server}
+        ); 
 
         const data = await response.json();
         // console.log(data);
@@ -28,7 +28,7 @@ const Dashboard = () => {
 
     const fetchSuggestedRepositories = async () => {
       try {
-        const response = await fetch(`http://localhost:3002/repo/all`); //`http://16.170.241.205:3002/repo/all`    //${server}
+        const response = await fetch(`https://github-clone-0bc8.onrender.com/repo/all`); //`http://16.170.241.205:3002/repo/all`    //${server}
 
         const data = await response.json();
         setSuggestedRepositories(data);
