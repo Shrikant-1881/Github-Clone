@@ -21,7 +21,7 @@ const Profile = () => {
       if (userId) {
         try {
           const response = await axios.get(
-            `http://localhost:3002/userProfile/${userId}` // `https://apna-github-backend.onrender.com/userProfile/${userId}`
+            `https://github-clone-0bc8.onrender.com/userProfile/${userId}` 
           ); //`http://16.170.241.205:3002/userProfile/${userId}`     //${server}
           setUserDetails(response.data);
         } catch (err) {
