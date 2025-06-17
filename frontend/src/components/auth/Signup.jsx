@@ -24,8 +24,8 @@ const Signup = () => {
 
     try {
       setLoading(true);
-      const res = await axios.post(`http://localhost:3002/signup`, {
-        //"http://16.170.241.205:3002/signup"  //${server}  https://apna-github-backend.onrender.com
+      const res = await axios.post(`https://github-clone-0bc8.onrender.com/signup`, {
+        //"http://16.170.241.205:3002/signup"  //${server}  
         email: email,
         password: password,
         username: username,
