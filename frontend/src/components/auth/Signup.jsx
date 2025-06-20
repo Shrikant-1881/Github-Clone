@@ -61,7 +61,7 @@ const Signup = () => {
             </PageHeader>
           </Box>
         </div>
-        <div className="login-box">
+        <div className="signup-box">
           <div>
             <label className="label">Username</label>
             <input
