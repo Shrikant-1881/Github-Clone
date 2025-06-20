@@ -30,7 +30,19 @@
 .login-box {
   padding: 20px 0px;
   width: 364px;
-  height: 475px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: #161a23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.signup-box {
+  padding: 20px 0px;
+  width: 364px;
+  height: 375px;
   border-radius: 10px;
   background-color: #161a23;
   display: flex;
